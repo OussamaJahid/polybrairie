@@ -99,8 +99,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 BASKET_SESSION_ID = 'basket'
 
 # Stripe Payment
-os.environ.setdefault('STRIPE_PUBLISHABLE_KEY', 'pk_test_51IHxTTJm9Ogh6om63DrCDlFfxcPDTvbUVy1CoSiI1ZS2GKt8UJojUJlbo9CAOCHnNgEqwKlQlnv9TmyzKIUUkr8800w8nNvBfw')
-STRIPE_SECRET_KEY = 'sk_test_51IHxTTJm9Ogh6om6ryBhjePFWUTXvweI5y5gXjFhgPWVztF83X6Rhae1LGfW8bteV5ebb2KhX9w61Q1117Sw1iHE00gzR7PmNq'
+os.environ.setdefault('STRIPE_PUBLISHABLE_KEY', 'pk_test_TYooMQauvdEDq54NiTphI7jx')
+STRIPE_SECRET_KEY = 'sk_test_4eC39HqLyjWDarjtT1zdp7dc'
 # stripe listen --forward-to localhost:8000/payment/webhook/
 
 # Custom user model
