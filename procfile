@@ -1,1 +1,0 @@
-web: gunicorn polybrairie.wsgi --log-file -
